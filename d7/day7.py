@@ -92,7 +92,7 @@ UPDATE_REQ_SIZE = 30000000
 
 with open('day7.txt') as f:
     root, all_dirs = Parse(f.readlines()[1:])
-    # root.print()
+    root.print()
     
     total_size = 0
     for d in all_dirs:
