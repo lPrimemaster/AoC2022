@@ -21,7 +21,6 @@ class AABB:
         self.x1 += x
         self.y0 += y
         self.y1 += y
-    
         
     def minX(self): return self.x0
     def minY(self): return self.y0
